@@ -1,17 +1,18 @@
-.center {width: 0px; margin: 0 auto; margin-top: 50px;}		
+.center {width: 0px; margin: 0 auto; margin-top: 300px;}		
 
 .panel1 {
-   background: red;
+   background: #3cb0fd;
    animation-name: moja_animacja;
    animation-duration: 20s;
    animation-iteration-count: infinite;
 }
     
 @keyframes moja_animacja {
-   0% {background: red;}
-   50% {background: yellow;}    
+   0% {background: #3cb0fd;}
+   50% {background: #3498db ;}    
 }
 #panel {
+margin-top: 100px;
 	width: 300px; 
 	margin: 0 auto; 
 	padding: 0; 
