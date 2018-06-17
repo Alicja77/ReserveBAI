@@ -1,5 +1,16 @@
 .center {width: 0px; margin: 0 auto; margin-top: 50px;}		
 
+.panel1 {
+   background: red;
+   animation-name: moja_animacja;
+   animation-duration: 20s;
+   animation-iteration-count: infinite;
+}
+    
+@keyframes moja_animacja {
+   0% {background: red;}
+   50% {background: yellow;}    
+}
 #panel {
 	width: 300px; 
 	margin: 0 auto; 
