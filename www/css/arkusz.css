@@ -46,7 +46,7 @@ label {
 	font-size: 11px;
 	padding: 5px;
 }
-input[type="button"] {
+input[type="submit"] {
 	width: 70px;
 	padding: 5px 13px;
 	border: 1px solid #005f85;
@@ -57,7 +57,7 @@ input[type="button"] {
 	left: 100px;
 }
 
-#panel, input[type="button"] {
+#panel, input[type="submit"] {
 	-webkit-border-radius: 5px; 
 	-moz-border-radius: 5px; 
 	border-radius: 5px; 
